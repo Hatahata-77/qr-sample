@@ -2,7 +2,7 @@
     <div>
     <p class="error">{{ error }}</p>
 
-    <p class="decode-result">読み取り結果</p>
+    <p class="decode-result">読み取り結果1</p>
     <text-area class="decode-result">{{ result }}</text-area>
 
     <qrcode-stream @decode="onDecode" @init="onInit" />
